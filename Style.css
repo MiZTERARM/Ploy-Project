@@ -56,3 +56,8 @@ button {
 .btn-back {
     -fx-background: #404040;
 }
+
+.textFiled {
+    -fx-background: #EBEBEB;
+    -fx-border-radius: 20px;
+}
