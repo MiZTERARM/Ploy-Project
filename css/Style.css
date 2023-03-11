@@ -1,0 +1,63 @@
+body {
+    -fx-width: 800px;
+    -fx-height: 600px;
+    -fx-background: #FFFFFF;
+}
+
+button {
+    -fx-border-radius: 25px;
+}
+
+.buttonHover {
+    -fx-background: rgba(255, 255, 255, 0.25);
+}
+
+.profile {
+    -fx-border-radius: 10000px;
+}
+
+.navBar {
+    -fx-background: linear-gradient(195.22deg, #005B61 0%, #00B75F 100%);
+    -fx-border-radius: 0px 30px 30px 0px;
+}
+
+.btn-signin {
+    -fx-background: linear-gradient(195.22deg, #00A1AB 0%, #5FCC98 100%);
+}
+
+.btn-signup {
+    -fx-background: #FFFFFF;
+}
+
+.btn-refresh {
+    -fx-background: linear-gradient(180deg, #FF6060 0%, #FF8540 100%);
+}
+
+.btn-confirm {
+    -fx-background: linear-gradient(180deg, #FF6060 0%, #FF8540 100%);
+}
+
+.btn-upload {
+    -fx-background: linear-gradient(180deg, #FFA360 0%, #FFD439 100%);
+}
+
+.btn-edit {
+    -fx-background: linear-gradient(180deg, #FFA360 0%, #FFD439 100%);
+}
+
+.btn-save {
+    -fx-background: linear-gradient(180deg, #FF6060 0%, #FF8540 100%);
+}
+
+.btn-cancel {
+    -fx-background: #404040;
+}
+
+.btn-back {
+    -fx-background: #404040;
+}
+
+.textFiled {
+    -fx-background: #EBEBEB;
+    -fx-border-radius: 20px;
+}
