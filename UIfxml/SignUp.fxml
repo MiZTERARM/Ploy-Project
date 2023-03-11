@@ -60,7 +60,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="91.0" pickOnBounds="true">
                            <image>
-                              <Image url="@../UIElement/Rectangle%2064-5.png" />
+                              <Image url="@../UIElement/Rectangle64-4.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -72,7 +72,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="96.0" pickOnBounds="true">
                            <image>
-                              <Image url="@../UIElement/Rectangle%2064-1.png" />
+                              <Image url="@../UIElement/Rectangle64-6.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -100,7 +100,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="131.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../UIElement/Rectangle%2064-2.png" />
+                              <Image url="@../UIElement/Rectangle64-3.png" />
                            </image>
                         </ImageView>
                      </graphic>

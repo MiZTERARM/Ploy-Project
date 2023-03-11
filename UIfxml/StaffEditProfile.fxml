@@ -16,7 +16,7 @@
          <children>
             <ImageView fitHeight="600.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../UIElement/AdminNew.png" />
+                  <Image url="@../UIElement/StaffNew.png" />
                </image>
             </ImageView>
             <Pane layoutX="10.0" layoutY="14.0" prefHeight="183.0" prefWidth="154.0">
@@ -33,35 +33,47 @@
                   </Label>
                </children>
             </Pane>
-            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="231.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="All User" textFill="WHITE">
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="231.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Materials" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Materials.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="266.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Equipment" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Equipment.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="300.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Requested" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Request.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="333.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Edit Profile" textFill="WHITE">
                <graphic>
                   <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../UIIcon/User.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-               <font>
-                  <Font name="System Bold" size="13.0" />
-               </font>
-            </Button>
-            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="266.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="New Staff Account" textFill="WHITE">
-               <graphic>
-                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../UIIcon/Account.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-               <font>
-                  <Font name="System Bold" size="13.0" />
-               </font>
-            </Button>
-            <Button alignment="TOP_LEFT" graphicTextGap="10.0" layoutX="14.0" layoutY="300.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Change Password" textFill="WHITE">
-               <graphic>
-                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../UIIcon/Password.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -89,7 +101,7 @@
                <children>
                   <ImageView fitHeight="355.0" fitWidth="555.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../UIElement/AdminCard.png" />
+                        <Image url="@../UIElement/StaffCard.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="238.0" fitWidth="238.0" layoutX="40.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
@@ -122,7 +134,7 @@
                   </Pane>
                </children>
             </Pane>
-            <Button contentDisplay="CENTER" layoutX="68.0" layoutY="38.0" mnemonicParsing="false" style="-fx-background-color: 000000;" text="Change Password" textAlignment="CENTER" textFill="WHITE">
+            <Button contentDisplay="CENTER" layoutX="68.0" layoutY="38.0" mnemonicParsing="false" style="-fx-background-color: 000000;" text="Edit Profile" textAlignment="CENTER" textFill="WHITE">
                <graphic>
                   <ImageView fitHeight="48.0" fitWidth="460.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -150,7 +162,7 @@
                <graphic>
                   <ImageView fitHeight="30.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../UIElement/Rectangle64-5.png" />
+                        <Image url="@../UIElement/Rectangle64-4.png" />
                      </image>
                   </ImageView>
                </graphic>

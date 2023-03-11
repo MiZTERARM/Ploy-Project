@@ -3,6 +3,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -15,7 +16,7 @@
          <children>
             <ImageView fitHeight="600.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../UIElement/AdminNew.png" />
+                  <Image url="@../UIElement/StaffNew.png" />
                </image>
             </ImageView>
             <Pane layoutX="10.0" layoutY="14.0" prefHeight="183.0" prefWidth="154.0">
@@ -32,35 +33,47 @@
                   </Label>
                </children>
             </Pane>
-            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="231.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="All User" textFill="WHITE">
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="231.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Materials" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Materials.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="266.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Equipment" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Equipment.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="300.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Requested" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Request.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="333.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Edit Profile" textFill="WHITE">
                <graphic>
                   <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../UIIcon/User.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-               <font>
-                  <Font name="System Bold" size="13.0" />
-               </font>
-            </Button>
-            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="266.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="New Staff Account" textFill="WHITE">
-               <graphic>
-                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../UIIcon/Account.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-               <font>
-                  <Font name="System Bold" size="13.0" />
-               </font>
-            </Button>
-            <Button alignment="TOP_LEFT" graphicTextGap="10.0" layoutX="14.0" layoutY="300.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Change Password" textFill="WHITE">
-               <graphic>
-                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../UIIcon/Password.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -82,47 +95,16 @@
             </Button>
          </children>
       </AnchorPane>
-      <TableView layoutX="189.0" layoutY="48.0" prefHeight="504.0" prefWidth="421.0" style="-fx-background-radius: 30;" />
-      <Pane layoutX="611.0" layoutY="74.0" prefHeight="275.0" prefWidth="175.0">
+      <AnchorPane layoutX="180.0" prefHeight="600.0" prefWidth="620.0">
          <children>
-            <ImageView fitHeight="292.0" fitWidth="187.0" pickOnBounds="true" preserveRatio="true">
+            <TableView layoutX="23.0" layoutY="109.0" prefHeight="469.0" prefWidth="574.0" />
+            <TextField layoutX="400.0" layoutY="59.0" prefHeight="26.0" prefWidth="198.0" promptText="Search" style="-fx-background-radius: 25;" />
+            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="368.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../UIElement/TableInfo.png" />
+                  <Image url="@../UIIcon/search-grey.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="130.0" fitWidth="130.0" layoutX="23.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../UIElement/Pro-05.png" />
-               </image>
-            </ImageView>
-            <Label alignment="TOP_LEFT" layoutX="23.0" layoutY="162.0" text="Name" textFill="WHITE">
-               <font>
-                  <Font name="System Bold" size="13.0" />
-               </font>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="23.0" layoutY="188.0" text="Username" textFill="WHITE">
-               <font>
-                  <Font name="System Bold" size="13.0" />
-               </font>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="23.0" layoutY="213.0" text="Date/time" textFill="WHITE">
-               <font>
-                  <Font name="System Bold" size="13.0" />
-               </font>
-            </Label>
          </children>
-      </Pane>
-      <Button contentDisplay="CENTER" layoutX="623.0" layoutY="513.0" mnemonicParsing="false" style="-fx-background-color: 000000; -fx-background-radius: 25;" text="🔃 Refresh" textFill="WHITE">
-         <font>
-            <Font name="System Bold" size="13.0" />
-         </font>
-         <graphic>
-            <ImageView fitHeight="30.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../UIElement/Rectangle64-1.png" />
-               </image>
-            </ImageView>
-         </graphic>
-      </Button>
+      </AnchorPane>
    </children>
 </AnchorPane>

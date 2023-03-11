@@ -106,7 +106,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="117.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../UIElement/Rectangle%2064-3.png" />
+                              <Image url="@../UIElement/Rectangle64-3.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -128,11 +128,11 @@
                   <Font name="System Bold" size="18.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="452.0" layoutY="506.0" mnemonicParsing="false" style="-fx-background-color: 000000;" text="Button" textFill="WHITE">
+            <Button contentDisplay="CENTER" layoutX="452.0" layoutY="506.0" mnemonicParsing="false" style="-fx-background-color: 000000;" text="Save" textFill="WHITE">
                <graphic>
                   <ImageView fitHeight="30.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../UIElement/Rectangle%2064-6.png" />
+                        <Image url="@../UIElement/Rectangle64-6.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -144,7 +144,7 @@
                <graphic>
                   <ImageView fitHeight="30.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../UIElement/Rectangle%2064-5.png" />
+                        <Image url="@../UIElement/Rectangle64-4.png" />
                      </image>
                   </ImageView>
                </graphic>
