@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="180.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="600.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../UIElement/UserNew.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="10.0" layoutY="14.0" prefHeight="183.0" prefWidth="154.0">
+               <children>
+                  <ImageView fitHeight="151.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIElement/Pro-05.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="63.0" layoutY="156.0" text="Name" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="231.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Home" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="266.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Materials" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Materials.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="300.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Equipment" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Equipment.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="337.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Edit Profile" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Request.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" graphicTextGap="8.0" layoutX="10.0" layoutY="558.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Log out" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Logout.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="180.0" prefHeight="600.0" prefWidth="620.0" style="-fx-background-color: White;">
+         <children>
+            <Button contentDisplay="CENTER" layoutX="63.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: 000000;" text="Equipment Borrow System" textAlignment="CENTER" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="48.0" fitWidth="460.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIElement/Head.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <ListView fx:id="materialListView" layoutX="22.0" layoutY="88.0" prefHeight="454.0" prefWidth="310.0" style="-fx-background-radius: 20;" />
+            <ImageView fitHeight="113.0" fitWidth="109.0" layoutX="354.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../UIElement/Rectangle71.png" />
+               </image></ImageView>
+            <Pane layoutX="340.0" layoutY="218.0" prefHeight="30.0" prefWidth="236.0">
+               <children>
+                  <Text layoutX="14.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="nameLabel" layoutX="63.0" layoutY="8.0" prefHeight="17.0" prefWidth="166.0" text="equipment name" />
+               </children>
+            </Pane>
+            <Pane layoutX="340.0" layoutY="248.0" prefHeight="30.0" prefWidth="236.0">
+               <children>
+                  <Text layoutX="14.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Category :">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="numberLabel" layoutX="82.0" layoutY="8.0" prefHeight="17.0" prefWidth="150.0" text="category" />
+               </children>
+            </Pane>
+            <Pane layoutX="340.0" layoutY="278.0" prefHeight="30.0" prefWidth="236.0">
+               <children>
+                  <Text layoutX="14.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Equipment number :">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="numberLabel1" layoutX="148.0" layoutY="8.0" prefHeight="17.0" prefWidth="85.0" text="number" />
+               </children>
+            </Pane>
+            <Pane layoutX="340.0" layoutY="308.0" prefHeight="30.0" prefWidth="236.0">
+               <children>
+                  <Text layoutX="14.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status :">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="numberLabel12" layoutX="66.0" layoutY="8.0" prefHeight="17.0" prefWidth="166.0" text="status" />
+               </children>
+            </Pane>
+            <Pane layoutX="340.0" layoutY="428.0" prefHeight="30.0" prefWidth="236.0">
+               <children>
+                  <Text layoutX="14.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total :">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="numberLabel11" layoutX="58.0" layoutY="8.0" prefHeight="17.0" prefWidth="172.0" text="amount" />
+               </children>
+            </Pane>
+            <Pane layoutX="340.0" layoutY="338.0" prefHeight="30.0" prefWidth="236.0">
+               <children>
+                  <Text layoutX="14.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location :">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="numberLabel121" layoutX="82.0" layoutY="8.0" prefHeight="17.0" prefWidth="150.0" text="location" />
+               </children>
+            </Pane>
+            <Pane layoutX="340.0" layoutY="368.0" prefHeight="30.0" prefWidth="236.0">
+               <children>
+                  <Text layoutX="14.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Purchase date :">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="numberLabel1211" layoutX="111.0" layoutY="8.0" prefHeight="17.0" prefWidth="125.0" text="dd/mm/yy" />
+               </children>
+            </Pane>
+            <Pane layoutX="340.0" layoutY="398.0" prefHeight="30.0" prefWidth="236.0">
+               <children>
+                  <Text layoutX="14.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Owner :">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="numberLabel12111" layoutX="70.0" layoutY="8.0" prefHeight="17.0" prefWidth="166.0" text="owner name" />
+               </children>
+            </Pane>
+            <Pane layoutX="340.0" layoutY="458.0" prefHeight="30.0" prefWidth="236.0">
+               <children>
+                  <Text layoutX="14.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Volume :">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <TextField layoutX="73.0" layoutY="4.0" prefHeight="25.0" prefWidth="109.0" promptText="Borrow volume" style="-fx-background-radius: 20;" />
+               </children>
+            </Pane>
+            <Button contentDisplay="CENTER" layoutX="408.0" layoutY="503.0" mnemonicParsing="false" style="-fx-background-color: 000000;" text="Confirm" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIElement/Rectangle64-6.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="CENTER" layoutX="22.0" layoutY="555.0" mnemonicParsing="false" style="-fx-background-color: 000000;" text="Back" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIElement/Rectangle64-5.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
