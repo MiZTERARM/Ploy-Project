@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="180.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="600.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../UIElement/UserNew.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="10.0" layoutY="14.0" prefHeight="183.0" prefWidth="154.0">
+               <children>
+                  <ImageView fitHeight="151.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIElement/Pro-05.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="63.0" layoutY="156.0" text="Name" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="231.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Home" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="266.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Materials" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Materials.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="300.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Equipment" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Equipment.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="337.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Edit Profile" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Request.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" graphicTextGap="8.0" layoutX="10.0" layoutY="558.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" style="-fx-background-color: 000000;" text="Log out" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIIcon/Logout.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="180.0" prefHeight="600.0" prefWidth="620.0" style="-fx-background-color: white;">
+         <children>
+            <Pane layoutX="32.0" layoutY="139.0" prefHeight="355.0" prefWidth="555.0">
+               <children>
+                  <ImageView fitHeight="355.0" fitWidth="555.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIElement/UserCard.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="238.0" fitWidth="238.0" layoutX="40.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIElement/Pro-05.png" />
+                     </image>
+                  </ImageView>
+                  <PasswordField layoutX="291.0" layoutY="167.0" prefHeight="32.0" prefWidth="230.0" promptText="Current Password" style="-fx-background-radius: 20;" />
+                  <PasswordField layoutX="291.0" layoutY="221.0" prefHeight="32.0" prefWidth="230.0" promptText="New Password" style="-fx-background-radius: 20;" />
+                  <PasswordField layoutX="290.0" layoutY="275.0" prefHeight="32.0" prefWidth="230.0" promptText="Confirm Password" style="-fx-background-radius: 20;" />
+                  <Pane layoutX="291.0" layoutY="89.0" prefHeight="32.0" prefWidth="230.0">
+                     <children>
+                        <Label layoutX="62.0" layoutY="6.0" prefHeight="17.0" prefWidth="169.0" text="Username" />
+                        <Text fill="#363636" layoutX="8.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User :">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="291.0" layoutY="121.0" prefHeight="32.0" prefWidth="230.0">
+                     <children>
+                        <Label layoutX="62.0" layoutY="6.0" prefHeight="17.0" prefWidth="169.0" text="Fist name    Last name" />
+                        <Text fill="#363636" layoutX="8.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Button contentDisplay="CENTER" layoutX="92.0" layoutY="272.0" mnemonicParsing="false" style="-fx-background-color: 000000;" text="Upload Photo" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="117.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../UIElement/Rectangle64-3.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Button contentDisplay="CENTER" layoutX="68.0" layoutY="38.0" mnemonicParsing="false" style="-fx-background-color: 000000;" text="Edit Profile" textAlignment="CENTER" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="48.0" fitWidth="460.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIElement/Head.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="CENTER" layoutX="452.0" layoutY="506.0" mnemonicParsing="false" style="-fx-background-color: 000000;" text="Save" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIElement/Rectangle64-6.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="CENTER" layoutX="343.0" layoutY="506.0" mnemonicParsing="false" style="-fx-background-color: 000000;" text="Cancel" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UIElement/Rectangle64-4.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
